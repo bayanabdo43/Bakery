@@ -1,0 +1,116 @@
+@font-face {
+    font-family: alegreya;
+    src: url(../webfonts/AlegreyaSans-Black.ttf);
+}
+@font-face {
+    font-family: opensans;
+    src: url(../webfonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+.alegreya4{
+    font-family: alegreya;
+    font-weight: 400;
+}
+.alegreya7{
+    font-family: alegreya;
+    font-weight: 700;
+}
+.sans4{
+    font-family: opensans;
+    font-weight: 400;
+}
+:root{
+    --main-color: #8e7754;
+    --scondry-color: #777;
+}
+
+
+nav{
+    img{
+        width: 200px;
+    }
+    .ui-hidden{
+        visibility: hidden;
+    }
+    .a-hover:hover .ui-hidden{
+        visibility: visible;
+    }
+}
+.main-header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.225) , rgba(0, 0, 0, 0.225)), url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    a.bg{
+        background-color: #8e7754;
+    }
+    a{
+        color: white;
+        &:hover{
+            background-color: white;
+            color: black;
+        }
+    }
+}
+main{
+    .sec-1{
+        i{
+            color: var(--main-color);
+        }
+    }
+    .sec-4 li i.bg{
+        color: var(--main-color);
+
+    }
+}
+footer{
+    .footer-f{
+        background-color: #403d38;
+
+    .bg-footer{
+        
+        background-image:url(../images/contact-details-map.png);
+        background-position: 85% center;
+        background-repeat: no-repeat;
+
+        a{
+            color: var(--scondry-color);
+        }
+        }
+    }
+    .footer-e{
+        background-color: #353330;
+        color: var(--scondry-color);
+    }
+    .fa-stack {
+        width: 35px;
+        height: 35px;
+        background-color: #484540;
+        &:hover{
+            color: white;
+        }
+    }
+    .facebook:hover{
+        background-color: #0275d8;
+    }
+    .google:hover{
+        background-color: rgb(94, 4, 4);
+    }
+    .linkedin:hover{
+        background-color: #035196;
+    }
+    .twitter:hover{
+        background-color: #2b91ea;
+
+    }
+}
+/**************ABOUT******************/
+.header-about{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: 100% 100%;
+
+}
+.j{
+    background-color:#8e7754;
+}
